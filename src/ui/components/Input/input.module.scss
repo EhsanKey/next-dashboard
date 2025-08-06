@@ -1,0 +1,25 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  &__label {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__field {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  &__field--error {
+    border-color: red;
+  }
+
+  &__error-message {
+    color: red;
+    font-size: 12px;
+  }
+}
